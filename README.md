@@ -8,33 +8,30 @@ This project analyzes crop-related data and builds a machine learning model to p
 - [Setup](#setup)
 - [Usage](#usage)
 - [Data Preprocessing](#data-preprocessing)
-- [Model Training](#model-training)
+- [Model Training and Prediction](#model-training-and-prediction)
 - [Evaluation](#evaluation)
-- [Saving and Loading the Model](#saving-and-loading-the-model)
 - [Dependencies](#dependencies)
+- [License](#license)
 
 ---
 
 ## Overview
-The project utilizes Python libraries for data manipulation, visualization, and machine learning. The goal is to preprocess the data, explore relationships between variables, train regression models, and evaluate their performance.
+This project uses Python libraries to preprocess data, explore relationships between variables, and train machine learning models to predict crop prices.
 
 ## Features
-1. Data Analysis:
-   - Statistics summary
-   - Histograms and scatter plots for visualization
-2. Data Preprocessing:
-   - Handling missing values
-   - Standardization and transformation
-3. Model Training:
-   - Linear Regression
-   - Decision Tree Regressor
-   - Random Forest Regressor
-   - Support Vector Classifier
-4. Model Evaluation:
-   - Cross-validation
-   - RMSE calculation
-5. Model Persistence:
-   - Saving and loading trained models
+1. **Data Analysis**:
+   - Summarize and visualize the dataset.
+   - Explore correlations and relationships between variables.
+2. **Data Preprocessing**:
+   - Handle missing and infinite values.
+   - Stratified sampling based on the target variable.
+   - Feature scaling and transformation using pipelines.
+3. **Model Training**:
+   - Train various models such as Linear Regression, Decision Tree Regressor, and Random Forest Regressor.
+4. **Model Evaluation**:
+   - Evaluate model performance using RMSE and cross-validation.
+5. **Model Deployment**:
+   - Save and load trained models using `joblib`.
 
 ---
 

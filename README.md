@@ -6,13 +6,6 @@ This project analyzes crop-related data and builds a machine learning model to p
 - [Overview](#overview)
 - [Features](#features)
 - [Setup](#setup)
-- [Usage](#usage)
-- [Data Preprocessing](#data-preprocessing)
-- [Model Training and Prediction](#model-training-and-prediction)
-- [Evaluation](#evaluation)
-- [Dependencies](#dependencies)
-- [License](#license)
-
 ---
 
 ## Overview
